@@ -1,0 +1,112 @@
+/* Intro styles */
+
+#intro {
+	background-image: url('../img/victoriandrinker.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-color: #FFF;
+	min-height: 48.5em;
+}
+
+
+.intro {
+	float: right;
+	margin: 2em;
+	/*height: 10em;*/
+	width: 25em;
+	padding: 2em;
+	background-color: #fff;
+}
+
+.intro > h1, h3 {
+	font-family: 'Rye', cursive;
+	font-weight: 400;
+	text-align: center;
+}
+
+.intro > h1 {
+	font-size: 3.5em;
+}
+
+.intro > h3 {
+	font-size: 2em;
+	margin: 0.5em 0;
+	color: #660033;
+}
+
+.intro-flourish {
+	background-image: url('../img/Flourish-6.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	margin: 0 auto;
+	background-color: blue;
+}
+
+
+
+
+/* Questions and answers */
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 4em;
+	margin-left: 2em;
+}
+
+.questions > h3 {
+	text-align: center;
+	font-size: 2em;
+}
+
+.glasses {
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+}
+
+.questions {
+	float: left;
+	width: 40%;
+	padding: 0 5em;
+	height: 40em;
+	border: 1px solid black;
+}
+
+.answer-block {
+	height: 40em;
+	width: 55%;	
+	border: 1px solid blue;
+}
+
+.answer {
+	width: 45%;
+	float: left;
+	height: 15em;
+	background-image: url('../img/florish.jpg');
+	background-size: 50% auto;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.tright, .bright {
+	margin-left: 4%;
+}
+
+.atext {
+	margin: 0 auto;
+	position: absolute;
+	top: 10%;
+	left: 5%;
+}
+
+
+/* delete at end */
+
+.clear-break {
+	clear: both;
+	height: 10em;
+}
+
+
