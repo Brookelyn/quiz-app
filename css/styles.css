@@ -18,6 +18,12 @@ p {
 	font-family: 'Open Sans', sans-serif;
 	margin-top: 4em;
 	margin-left: 2em;
+	line-height: 1.5em;
+	font-size: 1em;
+}
+
+a {
+	text-decoration: none;
 }
 
 
@@ -35,7 +41,6 @@ p {
 	min-height: 48.5em;
 }
 
-
 .intro {
 	float: right;
 	margin: 2em;
@@ -44,9 +49,13 @@ p {
 	background-color: #fff;
 }
 
-.intro > h3 {
+.intro > a {
 	margin: 0.5em 0;
 	color: #660033;
+	font-family: 'Rye', cursive;
+	font-size: 2em;
+	text-align: center;
+	display: block;
 }
 
 .intro-flourish {
@@ -105,6 +114,27 @@ p {
 	left: 5%;
 }
 
+#nextq {
+	clear: both;
+	height: 10em;
+}
+
+.next-box {
+	float: right;
+}
+
+.next-box > .arrow {
+	width: 200px;
+	margin: 0 3em 0 0;
+}
+
+.next-box > h3 {
+	text-align: center;
+	color: #660033;
+	margin-bottom: -0.5em;
+}
+
+
 
 
 
@@ -140,8 +170,7 @@ p {
 	color: #660033;
 }
 
-
-.arrow {
+.score-feedback > .arrow {
 	width: 20%;
 	margin: 0 auto;
 	display: block;
