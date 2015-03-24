@@ -71,10 +71,18 @@ a {
 
 /* Questions and answers */
 
+#quiz {
+	display: none;
+}
+
+#feedback {
+	color: #660033;
+}
 .questions > h3 {
 	text-align: center;
 	font-size: 2em;
-	padding: 5em 2em 5em 2em;
+	padding: 2em 2em 2em 2em;
+	line-height: 1.5em;
 }
 
 .glasses {
@@ -91,36 +99,44 @@ a {
 .answer-block {
 	width: 59%;	
 	float: right;
+	padding-top: 2em;
 }
 
 .answer {
 	width: 45%;
 	float: left;
-	height: 15em;
+	min-height: 15em;
+	max-height: 20em;
 	background-image: url('../img/florish.jpg');
 	background-size: 50% auto;
 	background-repeat: no-repeat;
 	position: relative;
+	margin-right: 5%;
+	margin-bottom: 10%;
 }
 
-.tright, .bright {
-	margin-left: 4%;
+.answer:hover {
+	-webkit-box-shadow: 10px 10px 47px 0px rgba(212,210,212,1);
+	-moz-box-shadow: 10px 10px 47px 0px rgba(212,210,212,1);
+	box-shadow: 10px 10px 47px 0px rgba(212,210,212,1);
 }
 
 .atext {
 	margin: 0 auto;
-	position: absolute;
 	top: 10%;
 	left: 5%;
+	padding: 5%;
+	height: 100%;
 }
 
 #nextq {
 	clear: both;
-	height: 10em;
+	height: 10em;	
 }
 
 .next-box {
 	float: right;
+	opacity: 0;
 }
 
 .next-box > .arrow {
@@ -128,10 +144,17 @@ a {
 	margin: 0 3em 0 0;
 }
 
-.next-box > h3 {
+.next-box > a {
+	font-family: 'Rye', cursive;
 	text-align: center;
 	color: #660033;
-	margin-bottom: -0.5em;
+	margin-bottom: 0.5em;
+	font-size: 2em;
+	display: block;
+}
+
+input {
+	visibility: hidden;
 }
 
 
@@ -149,7 +172,7 @@ a {
 	background-color: #FFF;
 	clear: both;
 	min-height: 30em;
-
+	display: none;
 }
 
 .score-feedback {
