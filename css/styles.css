@@ -4,10 +4,13 @@ h1, h3 {
 	font-family: 'Rye', cursive;
 	font-weight: 400;
 	text-align: center;
+	margin: 0;
+	padding: 0;
 }
 
 h1 {
 	font-size: 3.5em;
+	line-height: 1.25em;
 }
 
 h3 {
@@ -20,6 +23,7 @@ p {
 	margin-left: 2em;
 	line-height: 1.5em;
 	font-size: 1em;
+	padding: 2.5% 1%;
 }
 
 a {
@@ -28,7 +32,6 @@ a {
 	text-decoration: none;
 	color: #660033;
 }
-
 
 
 
@@ -68,7 +71,6 @@ a {
 
 
 
-
 /* Questions and answers */
 
 #quiz {
@@ -80,62 +82,44 @@ a {
 }
 
 .questions {
-	background-image: url('../img/wineglasses.jpg');
-	background-repeat: no-repeat;
-	background-position: center bottom;
-	background-size: contain;
 	float: left;
 	width: 40%;
-	height: 40em;
-	border: 1px solid green;
 }
 
 .question > h3 {
 	text-align: center;
 	font-size: 1em;
-	padding: 2em 2em 2em 2em;
+	padding: 2em 0.5em;
 	line-height: 1.5em;
-}
-
-.glasses {
-	width: 80%;
-	margin: 0 auto;
-	display: block;
 }
 
 .answer-block {
 	width: 59%;	
 	float: right;
 	padding-top: 2em;
-		border: 1px solid blue;
-
 }
 
 .answer {
 	width: 45%;
 	float: left;
-	min-height: 15em;
-	max-height: 20em;
 	background-image: url('../img/florish.jpg');
 	background-size: 50% auto;
 	background-repeat: no-repeat;
 	position: relative;
 	margin-right: 5%;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
+	min-height: 10em;
+}
+
+.atext {
+	margin: 0 auto;
+	padding: 0;
 }
 
 .answer:hover {
 	-webkit-box-shadow: 10px 10px 47px 0px rgba(212,210,212,1);
 	-moz-box-shadow: 10px 10px 47px 0px rgba(212,210,212,1);
 	box-shadow: 10px 10px 47px 0px rgba(212,210,212,1);
-}
-
-.atext {
-	margin: 0 auto;
-	top: 10%;
-	left: 5%;
-	padding: 5%;
-	height: 100%;
 }
 
 #nextq {
@@ -163,8 +147,6 @@ a {
 input {
 	visibility: hidden;
 }
-
-
 
 
 
@@ -210,8 +192,3 @@ input {
 .again:hover {
 	cursor: pointer;
 }
-
-
-
-
-

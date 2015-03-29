@@ -1,0 +1,87 @@
+/* 650 to 750 */
+
+@media screen and (min-width: 650px) and (max-width: 750px) {
+	.answer {
+		width: 100%;
+		background-size: 25% auto;
+		margin-bottom: 5%;
+	}
+
+	.atext {
+		margin-top: -5%;
+	}
+}
+
+
+
+@media screen and (min-width: 500px) and (max-width: 649px) {
+	
+	.answer {
+		width: 100%;
+		background-size: 35% auto;
+		margin-bottom: 5%;
+	}
+
+	.atext {
+		margin-top: -5%;
+	}
+}
+
+@media screen and (max-width: 499px) {
+
+	/* Global */
+
+	h1 {
+		font-size: 2.5em;
+	}
+
+	h3 {
+		font-size: 1.5em;
+	}
+
+
+	/* Intro */
+
+	#intro {
+		background-image: none;
+		background-color: #FFF;
+	}
+
+	.intro {
+		margin: 0 auto;
+		width: 95%;
+		padding: 5%;
+		background-color: #fff;
+	}
+
+	.intro > a {
+	font-size: 1.5em;
+	
+}
+
+	/* Q&A */
+
+	.questions {
+		width: 100%;
+		height: auto;
+		border-bottom: 1px solid black;
+	}
+
+	#feedback {
+		margin-bottom: 1em;
+	}
+
+	.answer-block {
+		width: 100%;
+		height: auto;
+	}
+
+	.answer {
+		width: 100%;
+		background-size: 35% auto;
+		margin-bottom: 5%;
+	}
+
+	/* Scoring */
+
+}

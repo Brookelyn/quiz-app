@@ -12,7 +12,7 @@ $(document).ready(function(){
 			correct: 0
 		},
 		{
-			question: 'What American city was the Sazerac invented in?',
+			question: 'In which city was the Sazerac first created?',
 			answers: ['San Francisco',
 					  'New York',
 					  'Chicago',
@@ -60,8 +60,8 @@ $(document).ready(function(){
 	/* Fade out landing page and fade in quiz*/
 
 	$('.play').click(function() {
-		$('#intro').fadeOut(2000);
-		$('#quiz').delay(2000).fadeIn(3000);
+		$('#intro').fadeOut(1000);
+		$('#quiz').delay(1000).fadeIn(1000);
 		setFunctionality();
 	});
 
