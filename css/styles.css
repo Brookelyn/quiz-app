@@ -23,7 +23,10 @@ p {
 }
 
 a {
+	font-family: 'Rye', cursive;
+	font-weight: 400;
 	text-decoration: none;
+	color: #660033;
 }
 
 
@@ -51,8 +54,6 @@ a {
 
 .intro > a {
 	margin: 0.5em 0;
-	color: #660033;
-	font-family: 'Rye', cursive;
 	font-size: 2em;
 	text-align: center;
 	display: block;
@@ -63,7 +64,6 @@ a {
 	background-repeat: no-repeat;
 	width: 100%;
 	margin: 0 auto;
-	background-color: blue;
 }
 
 
@@ -78,9 +78,21 @@ a {
 #feedback {
 	color: #660033;
 }
-.questions > h3 {
+
+.questions {
+	background-image: url('../img/wineglasses.jpg');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: contain;
+	float: left;
+	width: 40%;
+	height: 40em;
+	border: 1px solid green;
+}
+
+.question > h3 {
 	text-align: center;
-	font-size: 2em;
+	font-size: 1em;
 	padding: 2em 2em 2em 2em;
 	line-height: 1.5em;
 }
@@ -91,15 +103,12 @@ a {
 	display: block;
 }
 
-.questions {
-	float: left;
-	width: 40%;
-}
-
 .answer-block {
 	width: 59%;	
 	float: right;
 	padding-top: 2em;
+		border: 1px solid blue;
+
 }
 
 .answer {
@@ -140,14 +149,12 @@ a {
 }
 
 .next-box > .arrow {
-	width: 200px;
+	width: 12.5em;
 	margin: 0 3em 0 0;
 }
 
 .next-box > a {
-	font-family: 'Rye', cursive;
 	text-align: center;
-	color: #660033;
 	margin-bottom: 0.5em;
 	font-size: 2em;
 	display: block;
@@ -180,25 +187,28 @@ input {
 	width: 75%;
 }
 
-.score-feedback > h1, h3 {
+.score-text > h1 {
 	text-align: center;
 	padding-bottom: 1em;
-}
-
-.score-feedback > h1 {
 	margin-top: 10%;
+
 }
 
-.score-feedback > h3 {
+.again > h3 {
 	color: #660033;
+	padding-bottom: 0.5em;
+
 }
 
-.score-feedback > .arrow {
-	width: 20%;
+.again > .arrow {
+	width: 12.5em;
 	margin: 0 auto;
 	display: block;
 	color: #660033;
+}
 
+.again:hover {
+	cursor: pointer;
 }
 
 
